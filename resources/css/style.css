@@ -84,6 +84,17 @@ nav ul{
   justify-content: space-between;
 }
 
+nav a, a:hover, a:focus a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Mobile Navigation */
+
+.mobile-nav{
+  display: none;
+}
+
 /* Main Area */
 
 .main{
@@ -149,4 +160,18 @@ footer{
   padding: 5rem 0;
   color: #fff;
   background-color: #000;
+}
+
+/* For Tablets */
+
+@media only screen and (max-width: 1024px){
+
+  nav ul{
+    display: none;
+  }
+
+  .mobile-nav{
+    display: block;
+    text-align: center;
+  }
 }
