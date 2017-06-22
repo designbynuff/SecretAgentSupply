@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -45,7 +45,7 @@ header{
   height: 25rem;
   background-image: url(../img/moto.jpeg);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
@@ -181,5 +181,69 @@ footer{
 
   #glasses{
     display: none;
+  }
+}
+
+/* For Phones */
+
+@media only screen and (max-width: 470px){
+
+  header{
+
+  }
+
+  .logo img{
+    padding: 0 0;
+    margin: 0 auto;
+  }
+
+  .logo span{
+    display: none;
+    }
+
+  .hero{
+    height: 15rem;
+    padding: 0 0
+  }
+
+  .textbox{
+    width: 100%;
+    position: relative;
+    top: 10rem;
+    padding: 1rem 2rem;
+  }
+
+  .textbox h2{
+    font-size: 1rem;
+  }
+
+  .textbox h3{
+    font-size: .77rem;
+  }
+
+  .grid{
+    justify-content: center;
+  }
+
+  .item{
+    width: 90%;
+  }
+
+  #watch{
+    display: none;
+  }
+
+  .info-container{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .info{
+    width: 90%;
+    padding-bottom: .5rem;
+  }
+
+  footer{
+    text-align: center;
   }
 }
