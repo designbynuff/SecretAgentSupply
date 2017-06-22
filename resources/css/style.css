@@ -174,4 +174,12 @@ footer{
     display: block;
     text-align: center;
   }
+
+  .item{
+    width: 47%;
+  }
+
+  #glasses{
+    display: none;
+  }
 }
